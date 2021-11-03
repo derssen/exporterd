@@ -1,0 +1,13 @@
+Description = ok/neok
+
+[Service]
+User=exporter
+#RemainAfterExit=true
+ExecStart=/usr/local/bin/okey.sh
+Restart=always
+RestartSec=10
+LimitNOFILE=10000
+#Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
