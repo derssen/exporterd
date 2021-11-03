@@ -6,6 +6,6 @@ After=network-online.target
 User=exporter
 Group=exporter
 Type=simple
-ExecStart=/usr/local/bin/node_exporter --collector.textfile.directory="/home/exporter/value"
+ExecStart=/usr/bin/node_exporter --collector.textfile.directory="/home/exporter/value"
 [Install]
 WantedBy=multi-user.target
