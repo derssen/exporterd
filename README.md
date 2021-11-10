@@ -26,4 +26,4 @@ sudo cp okey.service /etc/systemd/system/
 
 sudo cp okey.sh /usr/local/bin/ && sudo chmod +x /usr/local/bin/okey.sh
 
-sudo systemctl daemon-reload && sudo systemctl enable exported && sudo systemctl restart exported
+sudo systemctl daemon-reload && sudo systemctl enable exporterd && sudo systemctl restart exporterd && sudo systemctl enable okey && sudo systemctl restart okey
