@@ -1,4 +1,4 @@
-Description = ok/neok
+Description = check for working
 
 [Service]
 User=exporter
